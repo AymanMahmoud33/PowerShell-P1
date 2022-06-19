@@ -9,7 +9,7 @@ Save-Help
 # Save-Help to \\share, Update-Help from \\share
 
 Get-Help
-Get-Help <Command> returns help file 
+Get-Help <Command> # returns help file 
 <#
 Can also use aliases “help” & “man” 
 <Cmdlet> -?
@@ -20,4 +20,3 @@ You can use Get-Help as a search engine
 Get-Help Get-Command –Examples 
 Get-Help Get-Command –Examples –Parameter
 # Positional parameters has [] about the parameter name like:
-Get-Help [[-Name] <string>]
