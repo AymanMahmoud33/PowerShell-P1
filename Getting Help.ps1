@@ -10,10 +10,12 @@ Save-Help to \\share, Update-Help from \\share
 
 Get-Help
 Get-Help <Command> returns help file 
+<#
 Can also use aliases “help” & “man” 
 <Cmdlet> -?
 About topics are conceptual help topics 
 You can use Get-Help as a search engine 
+#>
 # you can’t mix parameters from different parameter sets 
 >Get-Help Get-Command –Examples 
 >Get-Help Get-Command –Examples –Parameter
